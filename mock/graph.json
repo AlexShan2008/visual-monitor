@@ -1,0 +1,410 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "componentName": "server",
+        "iconfont": {
+          "text": "",
+          "x": -40,
+          "y": 10,
+          "cursor": "pointer",
+          "fontFamily": "iconfont",
+          "fill": "#1890ff",
+          "fontSize": 20
+        }
+      },
+      "label": "主机",
+      "x": 149,
+      "y": 110,
+      "type": "rect-node",
+      "style": {
+        "select": { "fill": "#e7f7ef" },
+        "fill": "#fff",
+        "stroke": "#fff",
+        "cursor": "pointer",
+        "radius": 4,
+        "width": 100
+      },
+      "labelCfg": { "style": { "cursor": "pointer", "fontSize": 16 } },
+      "id": "node-0.403515975806730151613470341617"
+    },
+    {
+      "data": {
+        "componentName": "cdn",
+        "iconfont": {
+          "text": "",
+          "x": -40,
+          "y": 10,
+          "cursor": "pointer",
+          "fontFamily": "iconfont",
+          "fill": "#1890ff",
+          "fontSize": 20
+        }
+      },
+      "label": "cdn",
+      "x": 149,
+      "y": 194,
+      "type": "rect-node",
+      "style": {
+        "select": { "fill": "#e7f7ef" },
+        "fill": "#fff",
+        "stroke": "#fff",
+        "cursor": "pointer",
+        "radius": 4,
+        "width": 100
+      },
+      "labelCfg": { "style": { "cursor": "pointer", "fontSize": 16 } },
+      "id": "node-0.216265641872647191613470347173"
+    },
+    {
+      "data": {
+        "componentName": "domain",
+        "iconfont": {
+          "text": "",
+          "x": -46,
+          "y": 10,
+          "cursor": "pointer",
+          "fontFamily": "iconfont",
+          "fill": "#1890ff",
+          "fontSize": 20
+        }
+      },
+      "label": "主域名",
+      "x": 151,
+      "y": 278,
+      "type": "rect-node",
+      "style": {
+        "select": { "fill": "#e7f7ef" },
+        "fill": "#fff",
+        "stroke": "#fff",
+        "cursor": "pointer",
+        "radius": 4,
+        "width": 100
+      },
+      "labelCfg": { "style": { "cursor": "pointer", "fontSize": 16 } },
+      "id": "node-0.65929460191968461613470351807"
+    },
+    {
+      "data": {
+        "componentName": "static-file",
+        "iconfont": {
+          "text": "",
+          "x": -56,
+          "y": 10,
+          "cursor": "pointer",
+          "fontFamily": "iconfont",
+          "fill": "#1890ff",
+          "fontSize": 20
+        }
+      },
+      "label": "静态资源",
+      "x": 151,
+      "y": 378,
+      "type": "rect-node",
+      "style": {
+        "select": { "fill": "#e7f7ef" },
+        "fill": "#fff",
+        "stroke": "#fff",
+        "cursor": "pointer",
+        "radius": 4,
+        "width": 100
+      },
+      "labelCfg": { "style": { "cursor": "pointer", "fontSize": 16 } },
+      "id": "node-0.39416777875665691613470356061"
+    },
+    {
+      "data": {
+        "componentName": "response",
+        "iconfont": {
+          "text": "",
+          "x": -56,
+          "y": 10,
+          "cursor": "pointer",
+          "fontFamily": "iconfont",
+          "fill": "#1890ff",
+          "fontSize": 20
+        }
+      },
+      "label": "接口响应",
+      "x": 154,
+      "y": 475,
+      "type": "rect-node",
+      "style": {
+        "select": { "fill": "#e7f7ef" },
+        "fill": "#fff",
+        "stroke": "#fff",
+        "cursor": "pointer",
+        "radius": 4,
+        "width": 100
+      },
+      "labelCfg": { "style": { "cursor": "pointer", "fontSize": 16 } },
+      "id": "node-0.47121545139520561613470358609"
+    },
+    {
+      "data": {
+        "componentName": "js-error",
+        "iconfont": {
+          "text": "",
+          "x": -56,
+          "y": 10,
+          "cursor": "pointer",
+          "fontFamily": "iconfont",
+          "fill": "#1890ff",
+          "fontSize": 20
+        }
+      },
+      "label": "js 报错",
+      "x": 152,
+      "y": 570,
+      "type": "rect-node",
+      "style": {
+        "select": { "fill": "#e7f7ef" },
+        "fill": "#fff",
+        "stroke": "#fff",
+        "cursor": "pointer",
+        "radius": 4,
+        "width": 100
+      },
+      "labelCfg": { "style": { "cursor": "pointer", "fontSize": 16 } },
+      "id": "node-0.159023190375697121613470362824"
+    }
+  ],
+  "edges": [
+    {
+      "source": "node-0.403515975806730151613470341617",
+      "target": "node-0.216265641872647191613470347173",
+      "sourceAnchor": 2,
+      "targetAnchor": 0,
+      "type": "polyline-edge",
+      "style": {
+        "edgeState:default": {
+          "stroke": "#aab7c3",
+          "endArrow": {
+            "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+            "fill": "#aab7c3",
+            "stroke": "#aab7c3"
+          },
+          "lineWidth": 1
+        },
+        "edgeState:selected": { "stroke": "#1890FF" },
+        "edgeState:hover": { "stroke": "#1890FF" },
+        "radius": 6,
+        "offset": 15,
+        "stroke": "#aab7c3",
+        "lineAppendWidth": 10,
+        "endArrow": {
+          "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+          "fill": "#aab7c3",
+          "stroke": "#aab7c3"
+        },
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 }
+      },
+      "id": "edge-0.97552319322112391613470367882",
+      "startPoint": { "x": 149, "y": 130.5, "anchorIndex": 2, "id": "14-13" },
+      "endPoint": { "x": 149, "y": 173.5, "anchorIndex": 0, "id": "14-17" }
+    },
+    {
+      "source": "node-0.216265641872647191613470347173",
+      "target": "node-0.65929460191968461613470351807",
+      "sourceAnchor": 2,
+      "targetAnchor": 0,
+      "type": "polyline-edge",
+      "style": {
+        "edgeState:default": {
+          "stroke": "#aab7c3",
+          "endArrow": {
+            "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+            "fill": "#aab7c3",
+            "stroke": "#aab7c3"
+          },
+          "lineWidth": 1
+        },
+        "edgeState:selected": { "stroke": "#1890FF" },
+        "edgeState:hover": { "stroke": "#1890FF" },
+        "radius": 6,
+        "offset": 15,
+        "stroke": "#aab7c3",
+        "lineAppendWidth": 10,
+        "endArrow": {
+          "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+          "fill": "#aab7c3",
+          "stroke": "#aab7c3"
+        },
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 }
+      },
+      "id": "edge-0.062954038883532351613470370862",
+      "startPoint": { "x": 149, "y": 214.5, "anchorIndex": 2, "id": "14-21" },
+      "endPoint": { "x": 151, "y": 257.5, "anchorIndex": 0, "id": "15-25" }
+    },
+    {
+      "source": "node-0.65929460191968461613470351807",
+      "target": "node-0.39416777875665691613470356061",
+      "sourceAnchor": 2,
+      "targetAnchor": 0,
+      "type": "polyline-edge",
+      "style": {
+        "edgeState:default": {
+          "stroke": "#aab7c3",
+          "endArrow": {
+            "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+            "fill": "#aab7c3",
+            "stroke": "#aab7c3"
+          },
+          "lineWidth": 1
+        },
+        "edgeState:selected": { "stroke": "#1890FF" },
+        "edgeState:hover": { "stroke": "#1890FF" },
+        "radius": 6,
+        "offset": 15,
+        "stroke": "#aab7c3",
+        "lineAppendWidth": 10,
+        "endArrow": {
+          "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+          "fill": "#aab7c3",
+          "stroke": "#aab7c3"
+        },
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 }
+      },
+      "id": "edge-0.066722747263923581613470374223",
+      "startPoint": { "x": 151, "y": 298.5, "anchorIndex": 2, "id": "15-29" },
+      "endPoint": { "x": 151, "y": 357.5, "anchorIndex": 0, "id": "15-35" }
+    },
+    {
+      "source": "node-0.39416777875665691613470356061",
+      "target": "node-0.47121545139520561613470358609",
+      "sourceAnchor": 2,
+      "targetAnchor": 0,
+      "type": "polyline-edge",
+      "style": {
+        "edgeState:default": {
+          "stroke": "#aab7c3",
+          "endArrow": {
+            "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+            "fill": "#aab7c3",
+            "stroke": "#aab7c3"
+          },
+          "lineWidth": 1
+        },
+        "edgeState:selected": { "stroke": "#1890FF" },
+        "edgeState:hover": { "stroke": "#1890FF" },
+        "radius": 6,
+        "offset": 15,
+        "stroke": "#aab7c3",
+        "lineAppendWidth": 10,
+        "endArrow": {
+          "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+          "fill": "#aab7c3",
+          "stroke": "#aab7c3"
+        },
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 }
+      },
+      "id": "edge-0.17010929180324741613470376491",
+      "startPoint": { "x": 151, "y": 398.5, "anchorIndex": 2, "id": "15-39" },
+      "endPoint": { "x": 151, "y": 454.5, "anchorIndex": 0, "id": "15-45" }
+    },
+    {
+      "source": "node-0.47121545139520561613470358609",
+      "target": "node-0.159023190375697121613470362824",
+      "sourceAnchor": 2,
+      "targetAnchor": 0,
+      "type": "polyline-edge",
+      "style": {
+        "edgeState:default": {
+          "stroke": "#aab7c3",
+          "endArrow": {
+            "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+            "fill": "#aab7c3",
+            "stroke": "#aab7c3"
+          },
+          "lineWidth": 1
+        },
+        "edgeState:selected": { "stroke": "#1890FF" },
+        "edgeState:hover": { "stroke": "#1890FF" },
+        "radius": 6,
+        "offset": 15,
+        "stroke": "#aab7c3",
+        "lineAppendWidth": 10,
+        "endArrow": {
+          "path": "M 0,0 L 8,4 L 7,0 L 8,-4 Z",
+          "fill": "#aab7c3",
+          "stroke": "#aab7c3"
+        },
+        "active": { "stroke": "rgb(95, 149, 255)", "lineWidth": 1 },
+        "selected": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "shadowColor": "rgb(95, 149, 255)",
+          "shadowBlur": 10,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "highlight": {
+          "stroke": "rgb(95, 149, 255)",
+          "lineWidth": 2,
+          "text-shape": { "fontWeight": 500 }
+        },
+        "inactive": { "stroke": "rgb(234, 234, 234)", "lineWidth": 1 },
+        "disable": { "stroke": "rgb(245, 245, 245)", "lineWidth": 1 }
+      },
+      "id": "edge-0.224346520361328851613470379009",
+      "startPoint": { "x": 154, "y": 495.5, "anchorIndex": 2, "id": "15-49" },
+      "endPoint": { "x": 154, "y": 549.5, "anchorIndex": 0, "id": "15-54" }
+    }
+  ],
+  "combos": []
+}
